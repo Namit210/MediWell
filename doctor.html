@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="doctor.css">
+</head>
+<body>
+    <a href="#" >
+        <img src="assets/MW.png" class="logo" alt="">
+        <em class="group"><em class="text">Medi</em><em class="text2">Well</em>
+        </em>
+    </a>
+    <br />
+    <section class="sect">
+        <h2>Sign Up</h2>
+    <form action="#" method="POST"> <!-- Replace "#" with your form action URL -->
+        <div>
+            <label for="license_number">Medical License Number:</label><br />
+            <input type="text" id="license_number" name="license_number" required>
+        </div>
+        <div>
+            <label for="first_name" >First Name </label>
+            <label for="last_name" style="margin-left:25% ;">Last Name</label><br/>
+            <input type="text" id="name" name="first_name"  placeholder="First Name" required>
+            <input type="text" id="name" name="last_name"  placeholder="Last Name" required>
+        </div>  
+        <div>
+            <label for="institute_affiliation">Institute Affiliation:</label><br />
+            <input type="text" id="institute_affiliation" name="institute_affiliation" placeholder="example hospital" required>
+        </div>
+        <div>
+            <label for="contact_number">Contact Number:</label><br />
+            <input type="number" id="contact_number" name="contact_number" placeholder="1234567890" required>
+        </div>
+        <div>
+            <label for="specialization">Specialization:</label><br />
+            <input type="text" id="specialization" name="specialization" required>
+        </div>
+        <div>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" placeholder="example.email@gmail.com" required>
+        </div>
+        <div>
+            <label for="password">Password:</label><br />
+            <input type="password" id="password" name="password" placeholder="Enter atleast 8+ characters" required>
+        </div>
+        <div class="terms">
+            <input type="checkbox"  name="agreement" class="checkbox" required>
+          
+                <span >By signing up, I agree with <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.</span>
+            
+        </div>      
+        <button type="submit" class="Register">Register</button>
+    </form>
+
+    </section>
+</body>
+</html>
